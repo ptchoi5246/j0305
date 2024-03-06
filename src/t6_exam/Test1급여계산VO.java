@@ -11,6 +11,7 @@ public class Test1급여계산VO {
 	int gongje; //gongje = (bonbong+sudang)*0.1;
 	int bonbong;
 	
+	
 	public int getNo() {
 		return no;
 	}
