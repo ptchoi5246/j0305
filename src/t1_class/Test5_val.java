@@ -1,6 +1,6 @@
 package t1_class;
 
-public class Test05_val {
+public class Test5_val {
 	//main 밖에서 변수 선언 - 필드
 	public static void main(String[] args) {
 		int su1 = 100, su3; //전역 변수 global vaiable

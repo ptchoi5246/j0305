@@ -1,6 +1,6 @@
 package t2_field;
 
-public class Test01 {
+public class Test1 {
 	int su1;
 	int su2 = 100;
 	

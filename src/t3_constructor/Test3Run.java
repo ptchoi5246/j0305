@@ -1,9 +1,9 @@
 package t3_constructor;
 
-public class Test03Run {
+public class Test3Run {
 	public static void main(String[] args) {
-		Test03 t3_1 = new Test03();
-		Test03 t3_2 = new Test03(100);
+		Test3 t3_1 = new Test3();
+		Test3 t3_2 = new Test3(100);
 		
 		System.out.println("t3_1.atom : " +t3_1.atom);
 		System.out.println("t3_2.atom : " +t3_2.atom);
@@ -23,7 +23,7 @@ public class Test03Run {
 		System.out.println("t3_2.atom : " +t3_2.atom); //600
 		System.out.println();
 		
-		Test03 t3_3 = new Test03(10, 20);
+		Test3 t3_3 = new Test3(10, 20);
 		System.out.println("t3_3.atom : " +t3_3.atom); //10
 		System.out.println("t3_3.atom2 : " +t3_3.atom2); //20
 		System.out.println();
@@ -40,7 +40,7 @@ public class Test03Run {
 		//편하다 / 해커들에게 당하기 쉽다
 		//절대 사용하면 안 된다!!!!!
 		
-		Test03 t3_4 = new Test03(70, 3.14);
+		Test3 t3_4 = new Test3(70, 3.14);
 		System.out.println("t3_4.atom : " +t3_4.atom); //70
 		System.out.println("t3_4.atom3 : " +t3_4.atom3); //3.14
 		System.out.println();

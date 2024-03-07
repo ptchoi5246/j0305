@@ -1,6 +1,6 @@
 package t2_field;
 
-public class Test01_val {
+public class Test1_val {
 	//main 밖에서 변수 선언 - 필드
 	int su3 = 10; //필드: 완벽한 전역변수
 	public void atom() { //메소드에만 void 작성할 수 있음 //atom 메소드
